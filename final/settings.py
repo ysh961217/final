@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'fvdim+-@2q(x3c+5ar5um4qla@3znz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = [".goorm.io"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
